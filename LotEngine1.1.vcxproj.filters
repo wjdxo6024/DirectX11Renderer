@@ -1,0 +1,761 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스---------------------">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine">
+      <UniqueIdentifier>{69b6d6e4-1d89-496d-af97-32170ec71a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\Scene">
+      <UniqueIdentifier>{79d66417-b89c-4fbe-9106-78fd2c6e2897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\Sound">
+      <UniqueIdentifier>{284c04b8-9e21-4ece-85ab-0756606bce20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\System">
+      <UniqueIdentifier>{11f6cea0-dbb3-488c-82e4-f45087bf7e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\System\FPS">
+      <UniqueIdentifier>{6d797911-e0c1-4721-ad34-2d7916dd42e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\Utility">
+      <UniqueIdentifier>{fd015a88-38f8-4580-a2a5-a8ec0812d20e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\MainFrame">
+      <UniqueIdentifier>{1a0de283-917c-4923-9928-0e4dbb5e4e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\Input">
+      <UniqueIdentifier>{48454c89-430c-4709-8ee8-2620e0a662a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX">
+      <UniqueIdentifier>{4ea4d187-b033-4064-9199-1be4098696d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D">
+      <UniqueIdentifier>{1707d340-463a-4893-b36b-dab0e759f06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\Engine">
+      <UniqueIdentifier>{592bde39-ac17-4868-8cd5-cabc9e305307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI">
+      <UniqueIdentifier>{8f2ac235-b837-4303-9ba5-8311d16f0d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Text">
+      <UniqueIdentifier>{270876ce-8827-48c3-9f3c-7c2662f9ebe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Sprite">
+      <UniqueIdentifier>{688d35ea-c995-44c8-8667-1b6fe2a828e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Button">
+      <UniqueIdentifier>{634e4acf-fb43-41c4-a6e7-aae76f9b548c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\List">
+      <UniqueIdentifier>{90fe9126-3871-4f9b-926e-c38440b5e690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Canvas">
+      <UniqueIdentifier>{24ab40f4-3616-4acc-aa1e-ea86e5a5240a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\Component">
+      <UniqueIdentifier>{f6fa581b-dc5a-49c1-aad2-121da7dd0f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D">
+      <UniqueIdentifier>{f4dd36be-2573-41e2-ac19-5e7efd96e7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\Engine">
+      <UniqueIdentifier>{bae2d32b-e638-48e5-ac9c-51cc228c878c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\EngineFunction">
+      <UniqueIdentifier>{34c8eda5-fa6d-4338-9894-4451ee32fc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\Component">
+      <UniqueIdentifier>{e79a8857-b463-4a4d-b27d-b995ba1425c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Animation">
+      <UniqueIdentifier>{180ca61c-f81a-44ed-8b81-ad1a0043d8e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model">
+      <UniqueIdentifier>{cfbfbdb0-5802-49ef-a1b0-6697c1d80d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Texture">
+      <UniqueIdentifier>{61b23be8-24d4-43ca-b7ed-b2292cbeb80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Object">
+      <UniqueIdentifier>{24f43266-a2e4-4389-8ed4-80dde8fa6a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Object\BasicModel">
+      <UniqueIdentifier>{6880df5d-0c33-4a6c-95a6-f61799209b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\ModelManage">
+      <UniqueIdentifier>{a6af8429-76d8-4557-988f-1108e3136173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Animation">
+      <UniqueIdentifier>{ef6484da-ef83-403a-8d3f-fd1b19b10c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Shader">
+      <UniqueIdentifier>{fb38fe5f-291f-4acd-8478-9f4c08b31e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Camera">
+      <UniqueIdentifier>{e9c0a818-7e9a-4550-be8a-080ada8ee13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Light">
+      <UniqueIdentifier>{f8575b8a-5501-42b7-8c89-82408fb4cb18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Component">
+      <UniqueIdentifier>{66e2bb18-2c4f-4887-becf-f165ee4a690a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameMain">
+      <UniqueIdentifier>{17bb1e41-6fbe-4e2c-826b-764ca3742e3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\Scene\Option">
+      <UniqueIdentifier>{b164133d-42c8-48e4-96ce-f98b7b2e553d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameMain\TestScenes">
+      <UniqueIdentifier>{5965d7e6-4484-4b5f-b892-ca30c46d4f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameMain\SceneStatus">
+      <UniqueIdentifier>{c613ee5d-4f0b-4f9e-a139-73158d35c077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\Physics">
+      <UniqueIdentifier>{d944509c-e145-4ed9-b113-71849048ad82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\Collider">
+      <UniqueIdentifier>{2387ccb4-9506-4616-a3c4-f9f1506630ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Object\TestModel">
+      <UniqueIdentifier>{bcbd0fac-1f7b-44f1-b7b6-5445d73bb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Model\Object\FbxModel">
+      <UniqueIdentifier>{1acd8f0e-c021-4a73-ba3a-3bc372e13b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Line">
+      <UniqueIdentifier>{e5ee53c6-c596-444d-9c57-81b01a66fc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape">
+      <UniqueIdentifier>{34ff207d-3095-4219-89f3-c2b0a69ed288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct2D\UI\Bitmap">
+      <UniqueIdentifier>{01dce80e-edf4-41fe-9aa5-357b918e4fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스---------------------\GameEngine\DirectX\Direct3D\Sky">
+      <UniqueIdentifier>{6429fe72-25f8-4126-938f-b753b7cdcf50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{a40717a4-f043-45fd-9885-9ce84f65fb9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorLogger.h">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXLoader.h">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomUtility.h">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct2DEngine.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXEngine.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="InputController.h">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowOption.h">
+      <Filter>소스---------------------\GameEngine\Scene\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스---------------------\GameEngine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="PhongShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConverter.h">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DMainFrame.h">
+      <Filter>소스---------------------\GameEngine\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneStatus.h">
+      <Filter>소스---------------------\GameMain\SceneStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsCounter.h">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuCounter.h">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>소스---------------------\GameEngine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumCulling.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\EngineFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelList.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\ModelManage</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumTestScene.h">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPosition.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTextureShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAnimationScene.h">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SkeletonAnimation.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXImporter.h">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPart.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationKeyFrame.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationController.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelBoneWeight.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMaterial.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkeletonBone.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkeleton.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelScene.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RectTransform.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody2D.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="ListView.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\List</Filter>
+    </ClInclude>
+    <ClInclude Include="BGM.h">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMode.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DXHeader.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXScene.h">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LotEngine1.1.h">
+      <Filter>소스---------------------\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraCutScene.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureArray.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TestTextureObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="TestLightObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMulitTextureScene.h">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMultiTextureObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMapShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaMapShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAlphaMapObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="BumpMapShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBumpMapObject.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecMapShaderClass.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTexture.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetDrawer.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationQuaternionKeyFrame.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelVertexWeight.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationStruct.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimMesh.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CEllipse.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitmap.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectangle.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeometry.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyDome.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Engine.h">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelShaders.h">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WindowOption.cpp">
+      <Filter>소스---------------------\GameEngine\Scene\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct2DEngine.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXEngine.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="InputController.cpp">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorLogger.cpp">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomUtility.cpp">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스---------------------\GameEngine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="PhongShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="StringConverter.cpp">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DMainFrame.cpp">
+      <Filter>소스---------------------\GameEngine\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneStatus.cpp">
+      <Filter>소스---------------------\GameMain\SceneStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsCounter.cpp">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuCounter.cpp">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스---------------------\GameEngine\System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>소스---------------------\GameEngine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumCulling.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\EngineFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelList.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\ModelManage</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FrustumTestScene.cpp">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraPosition.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>소스---------------------\GameEngine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTextureShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAnimationScene.cpp">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SkeletonAnimation.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXImporter.cpp">
+      <Filter>소스---------------------\GameEngine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPart.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationKeyFrame.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationController.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelBoneWeight.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMaterial.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkeletonBone.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkeleton.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelScene.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RectTransform.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody2D.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="ListView.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\List</Filter>
+    </ClCompile>
+    <ClCompile Include="BGM.cpp">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMode.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXScene.cpp">
+      <Filter>소스---------------------\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LotEngine1.1.cpp">
+      <Filter>소스---------------------\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraCutScene.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureArray.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTextureObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TestLightObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMulitTextureScene.cpp">
+      <Filter>소스---------------------\GameMain\TestScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMultiTextureObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMapShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaMapShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAlphaMapObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="BumpMapShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBumpMapObject.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\TestModel</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecMapShaderClass.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTexture.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetDrawer.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationQuaternionKeyFrame.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelVertexWeight.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationStruct.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimMesh.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CEllipse.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CBitmap.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectangle.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeometry.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct2D\UI\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyDome.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Direct3D\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2Engine.cpp">
+      <Filter>소스---------------------\GameEngine\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelShaders.cpp">
+      <Filter>소스---------------------\GameEngine\DirectX\Model\Object\FbxModel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LotEngine1.1.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="LotEngine1.1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\bumpmap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shader\bumpmap.ps">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

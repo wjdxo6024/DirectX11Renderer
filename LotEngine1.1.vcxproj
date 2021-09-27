@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{95EBD8C8-8AB2-4B3E-A973-FA779CBC8FA5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LotEngine11</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\김정태\source\repos\LotEngine1.1\LotEngine1.1\Include;C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\김정태\source\repos\LotEngine1.1\LotEngine1.1\Libs\x64\Debug;C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\lib\vs2017\x64\debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\김정태\source\repos\LotEngine1.1\LotEngine1.1\Include;C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\김정태\source\repos\LotEngine1.1\LotEngine1.1\Libs\x64\Release;C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\lib\vs2017\x64\release;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_NON_CONFORMING_SWPRINTFS;FBXSDK_SHARED;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files\Autodesk\FBX\FBX SDK\2020.0.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dsound.lib;uuid.lib;dxguid.lib;dinput8.lib;Shcore.lib;dwrite.lib;D2D1.lib;libfbxsdk-md.lib;libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_NON_CONFORMING_SWPRINTFS;FBXSDK_SHARED;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dsound.lib;uuid.lib;dxguid.lib;dinput8.lib;Shcore.lib;dwrite.lib;D2D1.lib;libfbxsdk-md.lib;libfbxsdk.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AlignedAllocationPolicy.h" />
+    <ClInclude Include="AlphaMapShaderClass.h" />
+    <ClInclude Include="BGM.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="BumpMapShaderClass.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraCutScene.h" />
+    <ClInclude Include="CameraPosition.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="CBitmap.h" />
+    <ClInclude Include="CGeometry.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="ColorShaderClass.h" />
+    <ClInclude Include="CpuCounter.h" />
+    <ClInclude Include="CRectangle.h" />
+    <ClInclude Include="CustomUtility.h" />
+    <ClInclude Include="D3DMainFrame.h" />
+    <ClInclude Include="CEllipse.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="ModelAnimation.h" />
+    <ClInclude Include="ModelAnimationQuaternionKeyFrame.h" />
+    <ClInclude Include="ModelAnimationStruct.h" />
+    <ClInclude Include="ModelAnimMesh.h" />
+    <ClInclude Include="ModelMesh.h" />
+    <ClInclude Include="ModelShaders.h" />
+    <ClInclude Include="ModelVertexWeight.h" />
+    <ClInclude Include="RenderTargetDrawer.h" />
+    <ClInclude Include="Direct2DEngine.h" />
+    <ClInclude Include="DirectXEngine.h" />
+    <ClInclude Include="DXHeader.h" />
+    <ClInclude Include="ErrorLogger.h" />
+    <ClInclude Include="FBXImporter.h" />
+    <ClInclude Include="FBXLoader.h" />
+    <ClInclude Include="FBXScene.h" />
+    <ClInclude Include="FpsCounter.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="FrustumCulling.h" />
+    <ClInclude Include="FrustumTestScene.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="InputController.h" />
+    <ClInclude Include="KeyboardManager.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightMapShaderClass.h" />
+    <ClInclude Include="LightMode.h" />
+    <ClInclude Include="LightShaderClass.h" />
+    <ClInclude Include="ListView.h" />
+    <ClInclude Include="LotEngine1.1.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="ModelAnimationController.h" />
+    <ClInclude Include="ModelAnimationKeyFrame.h" />
+    <ClInclude Include="ModelBoneWeight.h" />
+    <ClInclude Include="ModelList.h" />
+    <ClInclude Include="ModelMaterial.h" />
+    <ClInclude Include="ModelObject.h" />
+    <ClInclude Include="ModelPart.h" />
+    <ClInclude Include="ModelScene.h" />
+    <ClInclude Include="ModelSkeleton.h" />
+    <ClInclude Include="ModelSkeletonBone.h" />
+    <ClInclude Include="MouseManager.h" />
+    <ClInclude Include="MultiTextureShaderClass.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="PhongShaderClass.h" />
+    <ClInclude Include="RectTransform.h" />
+    <ClInclude Include="RenderTexture.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RigidBody.h" />
+    <ClInclude Include="RigidBody2D.h" />
+    <ClInclude Include="SceneStatus.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SkeletonAnimation.h" />
+    <ClInclude Include="SkyBox.h" />
+    <ClInclude Include="SkyDome.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SpecMapShaderClass.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="StringConverter.h" />
+    <ClInclude Include="SystemManager.h" />
+    <ClInclude Include="Tag.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TestAlphaMapObject.h" />
+    <ClInclude Include="TestAnimationScene.h" />
+    <ClInclude Include="TestBumpMapObject.h" />
+    <ClInclude Include="TestLightObject.h" />
+    <ClInclude Include="TestMulitTextureScene.h" />
+    <ClInclude Include="TestMultiTextureObject.h" />
+    <ClInclude Include="TestObject.h" />
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="TestTextureObject.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TextureArray.h" />
+    <ClInclude Include="TextureShaderClass.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="WindowOption.h" />
+    <ClInclude Include="XAudio2Engine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlphaMapShaderClass.cpp" />
+    <ClCompile Include="BGM.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="BumpMapShaderClass.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraCutScene.cpp" />
+    <ClCompile Include="CameraPosition.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="CBitmap.cpp" />
+    <ClCompile Include="CGeometry.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="ColorShaderClass.cpp" />
+    <ClCompile Include="CpuCounter.cpp" />
+    <ClCompile Include="CRectangle.cpp" />
+    <ClCompile Include="CustomUtility.cpp" />
+    <ClCompile Include="D3DMainFrame.cpp" />
+    <ClCompile Include="CEllipse.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="ModelAnimation.cpp" />
+    <ClCompile Include="ModelAnimationQuaternionKeyFrame.cpp" />
+    <ClCompile Include="ModelAnimationStruct.cpp" />
+    <ClCompile Include="ModelAnimMesh.cpp" />
+    <ClCompile Include="ModelMesh.cpp" />
+    <ClCompile Include="ModelShaders.cpp" />
+    <ClCompile Include="ModelVertexWeight.cpp" />
+    <ClCompile Include="RenderTargetDrawer.cpp" />
+    <ClCompile Include="Direct2DEngine.cpp" />
+    <ClCompile Include="DirectXEngine.cpp" />
+    <ClCompile Include="ErrorLogger.cpp" />
+    <ClCompile Include="FBXImporter.cpp" />
+    <ClCompile Include="FBXLoader.cpp" />
+    <ClCompile Include="FBXScene.cpp" />
+    <ClCompile Include="FpsCounter.cpp" />
+    <ClCompile Include="FrustumCulling.cpp" />
+    <ClCompile Include="FrustumTestScene.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="InputController.cpp" />
+    <ClCompile Include="KeyboardManager.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightMapShaderClass.cpp" />
+    <ClCompile Include="LightMode.cpp" />
+    <ClCompile Include="LightShaderClass.cpp" />
+    <ClCompile Include="ListView.cpp" />
+    <ClCompile Include="LotEngine1.1.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="ModelAnimationController.cpp" />
+    <ClCompile Include="ModelAnimationKeyFrame.cpp" />
+    <ClCompile Include="ModelBoneWeight.cpp" />
+    <ClCompile Include="ModelList.cpp" />
+    <ClCompile Include="ModelMaterial.cpp" />
+    <ClCompile Include="ModelObject.cpp" />
+    <ClCompile Include="ModelPart.cpp" />
+    <ClCompile Include="ModelScene.cpp" />
+    <ClCompile Include="ModelSkeleton.cpp" />
+    <ClCompile Include="ModelSkeletonBone.cpp" />
+    <ClCompile Include="MouseManager.cpp" />
+    <ClCompile Include="MultiTextureShaderClass.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="PhongShaderClass.cpp" />
+    <ClCompile Include="RectTransform.cpp" />
+    <ClCompile Include="RenderTexture.cpp" />
+    <ClCompile Include="RigidBody.cpp" />
+    <ClCompile Include="RigidBody2D.cpp" />
+    <ClCompile Include="SceneStatus.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SkeletonAnimation.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+    <ClCompile Include="SkyDome.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="SpecMapShaderClass.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StringConverter.cpp" />
+    <ClCompile Include="SystemManager.cpp" />
+    <ClCompile Include="Tag.cpp" />
+    <ClCompile Include="TestAlphaMapObject.cpp" />
+    <ClCompile Include="TestAnimationScene.cpp" />
+    <ClCompile Include="TestBumpMapObject.cpp" />
+    <ClCompile Include="TestLightObject.cpp" />
+    <ClCompile Include="TestMulitTextureScene.cpp" />
+    <ClCompile Include="TestMultiTextureObject.cpp" />
+    <ClCompile Include="TestObject.cpp" />
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="TestTextureObject.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureArray.cpp" />
+    <ClCompile Include="TextureShaderClass.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="WindowOption.cpp" />
+    <ClCompile Include="XAudio2Engine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LotEngine1.1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LotEngine1.1.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\bumpmap.vs">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
+    <None Include="Shader\bumpmap.ps">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
